@@ -23,9 +23,9 @@
         </Link>
           {theme === "dark" ? (
           <nav>
-              <Link href="#" className="text-2xl font-bold text-white ">
+              <Link href="/About" className="text-2xl font-bold text-white ">
                 About</Link>
-           <Link href="#" className="text-2xl font-bold text-white ml-8">
+           <Link href="/Projects" className="text-2xl font-bold text-white ml-8">
                 Projects</Link>
                 <Link href="/Contact" className="text-2xl font-bold text-white ml-8">
                 Contact</Link>
@@ -33,9 +33,9 @@
           ) : (
             <nav>
             
-              <Link href="#" className="text-2xl font-bold text-gray-900 ">
+              <Link href="/About" className="text-2xl font-bold text-gray-900 ">
                 About</Link>
-            <Link href="#" className="text-2xl font-bold text-gray-900 ml-8">
+            <Link href="/Projects" className="text-2xl font-bold text-gray-900 ml-8">
                 Projects</Link>
               <Link href="/Contact" className="text-2xl font-bold text-gray-900 ml-8">
                 Contact</Link>

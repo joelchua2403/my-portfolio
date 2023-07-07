@@ -1,7 +1,27 @@
 'use client'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
+import ProjectCard from '@/components/ProjectCard'
+import axios from 'axios'
 // import { Navbar } from 'flowbite-react'
+
+const getLatestRepos = async (data) => {
+  console.log("data", data);
+  try {
+    const username = data.githubUsername;
+
+    const res = await axios.get(
+      `https://api.github.com/search/repositories?q=user:${joelchua2403}+sort:author-date-asc`
+    );
+
+    let repos = res.data.items;
+    console.log("repos", repos);
+    let latestSixRepos = repos.splice(0, 6);
+    return latestSixRepos;
+  } catch (err) {
+    console.log(err);
+  }
+};
 
 
 export default function Home() {
@@ -47,6 +67,10 @@ export default function Home() {
 </Navbar>
 </div> */}
 <Hero />
+<h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white p-5 mt-5">
+  Projects
+</h3>
+<ProjectCard />
       </div>
   )
 }
