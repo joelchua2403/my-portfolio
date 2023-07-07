@@ -37,8 +37,8 @@ const page = () => {
                 Skills
             </h1>
             <div>
-                <div className=" dark:text-gray-200 m-3">
-                    <h2 className="text-1xl md:text-2xl font-bold text-gray-700">Languages:</h2>
+                <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+                    Languages:
                     <div className="flex p-5 mr-5">
                         <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
                         <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>
@@ -48,7 +48,7 @@ const page = () => {
                     </div>
                 </div>
                 <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
-                    <h2 className="text-1xl md:text-2xl font-bold text-gray-700">Frontend:</h2>
+                    Frontend:
                     <div className="flex p-5 mr-5">
                         <img src="https://img.icons8.com/color/48/000000/react-native.png"/>
                         <img src="https://img.icons8.com/color/48/000000/nextjs.png"/>
@@ -59,7 +59,7 @@ const page = () => {
                       
                 </div>
                 <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
-                    <h2 className="text-1xl md:text-2xl font-bold text-gray-700">Backend:</h2>
+                    Backend:
                     <div className="flex p-5 mr-5">
                         <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
                         <img src="https://img.icons8.com/color/48/000000/express.png"/>
@@ -91,7 +91,7 @@ const page = () => {
             </div>
             <div className="">
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">Experience</h1> 
-                
+
                 </div>
       </div>
     </div>
