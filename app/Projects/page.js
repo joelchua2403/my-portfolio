@@ -7,6 +7,9 @@ const page = () => {
   return (
     <div>
       <Navbar />
+      <h3 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
+        Projects
+        </h3>
       <ProjectCard />
     </div>
   )

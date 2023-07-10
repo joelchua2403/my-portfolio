@@ -16,7 +16,7 @@ const page = () => {
         <div className="grid md:grid-cols-2">
           <div className="flex flex-col justify-center items-center">
             <div className="text-md md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-3">
-              Hi, I'm Joel, an Ex-Naval Officer turned full-stack developer
+              Hi, I'm Joel, an Ex-Naval Officer holding a degree in Civil Engineering turned full-stack developer
               from Singapore. I am currently looking for opportunities to
               work in a team to build cool stuff. I am also looking for
               opportunities to learn from experienced developers. I am a
