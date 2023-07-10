@@ -7,14 +7,15 @@ const page = () => {
   return (
     <div>
         <Navbar />
-    <h2 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
-        Harbour Booking App Demo
-        </h2>
-        <ReactPlayer url="https://www.youtube.com/watch?v=aA4VRxHHjmU" />
+  
 
     <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
+        Harbour Booking App Demo
+        </h2>
+        <ReactPlayer url="https://www.youtube.com/watch?v=aA4VRxHHjmU" />
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 Built with:
             </h1>
             <div className="flex flex-row justify-center items-center">
@@ -26,11 +27,11 @@ const page = () => {
                 <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
 
                 </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 App Features:
             </h1>
         
-                <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+                <div className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-3">
                     <ol>
                         <li>1) User Authentication using JWT</li>
                         <li>2) Logged in user is able to view his past bookings made.</li>
@@ -45,11 +46,11 @@ const page = () => {
                 </div>
                 
 
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 Challenges:
             </h1>
             
-                <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+                <div className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-3">
                     <ol>
                     <li>1) Challenges with requirements gathering due to confidentiality</li>
                         <li>2) Learning to translate user requirements into technical decisions.</li>
@@ -59,10 +60,10 @@ const page = () => {
                     </ol>
                     </div>
                     
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 What I would do differently:
             </h1>
-            <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3 mb-20">
+            <div className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-3 mb-20">
                     <ol>
                         <li>1) Spend more time on requirements gathering</li>
                         <li>2) Do up a MVP and getting user feedback after demo first before continuing work</li>

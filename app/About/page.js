@@ -79,13 +79,14 @@ const page = () => {
                 <img src="https://img.icons8.com/color/48/000000/nextjs.png" />
                 <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" />
                 <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+                <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
               </div>
             </div>
             <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               Backend:
               <div className="flex p-5 mr-5">
-                <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
-                <img src="https://img.icons8.com/color/48/000000/express.png" />
+                {/* <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+                <img src="https://img.icons8.com/color/48/000000/express.png" /> */}
                 <img src="https://img.icons8.com/color/48/000000/django.png" />
                 <img
                   src="https://img.icons8.com/?size=512&id=90519&format=png"
@@ -97,28 +98,24 @@ const page = () => {
             <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               Database:
               <div className="flex p-5 mr-5">
-                <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
-                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" />
+                {/* <img src="https://img.icons8.com/color/48/000000/mongodb.png" /> */}
+                {/* <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" /> */}
                 <img src="https://img.icons8.com/color/48/000000/postgreesql.png" />
               </div>
             </div>
             <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               DevOps:
             </div>
-            <div className="flex p-5 mr-5">
+            <div className="flex p-5 mr-5 mb-28">
               <img src="https://img.icons8.com/color/48/000000/git.png" />
               <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
               <img src="https://img.icons8.com/color/48/000000/docker.png" />
-              <img src="https://img.icons8.com/color/48/000000/jenkins.png" />
+              {/* <img src="https://img.icons8.com/color/48/000000/jenkins.png" /> */}
               <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" />
             </div>
           </div>
         </div>
-        <div className="">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
-            Experience
-          </h1>
-        </div>
+       
       </div>
     </div>
   );

@@ -1,7 +1,28 @@
 
-    import React from "react";
+    import React, {useRef} from "react";
+    import emailjs from '@emailjs/browser';
+
 
     export default function Contact() {
+
+
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_co0nlyp', 'template_bouqoey', form.current, '9twgp5Y-MsAi0kZQT')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+        form.current.reset();
+        alert('Message sent successfully. Thank you! I will get back to you soon.');
+  };
       return (
         <section>
           <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -57,30 +78,23 @@
                 
                   <div className="flex flex-row items-center space-x-6 rounded-md p-4">
                     
-              <form className="form rounded-lg bg-white p-4 flex flex-col">
+              <form ref={form} onSubmit={sendEmail} className="form rounded-lg bg-white p-4 flex flex-col">
                 <label htmlFor="name" className="text-sm text-gray-600 mx-4">
                   Your Name
                 </label>
                 <input
                   type="text"
                   className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
-                  name="name"
+                  name="user_name"
                 />
-                <label htmlFor="company" className="text-sm text-gray-600 mx-4 mt-4">
-                    Company
-                </label>
-                <input
-                    type="text"
-                    className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
-                    name="company"
-                />
+             
                 <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
                   Email
                 </label>
                 <input
                   type="text"
                   className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
-                  name="email"
+                  name="user_email"
                 />
                 <label htmlFor="message" className="text-sm text-gray-600 mx-4 mt-4">
                     Message
@@ -93,6 +107,7 @@
                 <button
                   type="submit"
                   className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+                  value='Send'
                 >
                   Send Message
                 </button>

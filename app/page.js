@@ -5,23 +5,23 @@ import ProjectCard from '@/components/ProjectCard'
 import axios from 'axios'
 // import { Navbar } from 'flowbite-react'
 
-const getLatestRepos = async (data) => {
-  console.log("data", data);
-  try {
-    const username = data.githubUsername;
+// const getLatestRepos = async (data) => {
+//   console.log("data", data);
+//   try {
+//     const username = data.githubUsername;
 
-    const res = await axios.get(
-      `https://api.github.com/search/repositories?q=user:${joelchua2403}+sort:author-date-asc`
-    );
+//     const res = await axios.get(
+//       `https://api.github.com/search/repositories?q=user:${joelchua2403}+sort:author-date-asc`
+//     );
 
-    let repos = res.data.items;
-    console.log("repos", repos);
-    let latestSixRepos = repos.splice(0, 6);
-    return latestSixRepos;
-  } catch (err) {
-    console.log(err);
-  }
-};
+//     let repos = res.data.items;
+//     console.log("repos", repos);
+//     let latestSixRepos = repos.splice(0, 6);
+//     return latestSixRepos;
+//   } catch (err) {
+//     console.log(err);
+//   }
+// };
 
 
 export default function Home() {
@@ -67,10 +67,47 @@ export default function Home() {
 </Navbar>
 </div> */}
 <Hero />
-<h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white p-5 mt-5">
-  Projects
+<h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white p-5 mt-10">
+  My Coding Story
 </h3>
-<ProjectCard />
+<div className="flex flex-col items-center justify-center m-8">
+<p className="text-center text-gray-600 dark:text-gray-400">
+
+My first foray into Technology was back when I was 18, I was so desperate for having a gaming PC so that I could play AAA games. However, being a broke student, pre-built PCs were so expensive. So I decided to build my own PC which helped me save about $1000~ :).
+<br />
+<br />
+<div className="flex flex-col items-center justify-center">
+<img  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1676963385505/90fe549f-460d-4902-8385-8a64302306d2.jpeg?auto=compress,format&format=webp" alt="Silicon Valley TV Show" />
+</div>
+<br />
+<br />
+In Nov 2022, I came across this TV Show called Silicon Valley which got me interested in the tech industry, in particular, software development. This made me sign up with Codecademy to start learning basic programming.
+After considerable research on what programming language to learn first, I decided on Python. I signed up for the Learn Python Course on Codecademy and before I knew it, I wrote my first "Hello World" program.
+
+<br />
+<br />
+
+It did not take long for me to be hooked to programming. I loved how programming lets you create anything you can put your mind to. I loved the problem solving aspect and the need for continous learning as a software developer.
+
+<br />
+<br />
+
+After a month, I had completed the Learn Python Course. I was wondering what could I do next in my coding journey. This was when I came across Harvard's CS50 lectures all on youtube for free. I started watching the lectures in my free time. In short, CS50 WAS AMAZING. I could'nt believe that such good resources were available for anyone for free. This was also my first stepping stone into learning about Data Structures and Algorithms.
+<br />
+<br />
+At this point in time, I concurrently also started on Codecademy's Computer Science Career Path which had modules like Learning Python, Data Structures and Algorithms, Databases, Computer Architecture and Discrete Maths.
+Data Structures and Algorithms was probrably one of the toughest part of the course and it made me realise how much more I had to learn. 
+<br />
+<br />
+I decided to take a leap of faith and pursue my newfound passion for programming. I enrolled in a 6 month Software Engineering Bootcamp with Nanyang Technological University. I was so excited to learn more about programming and to be able to build my own web applications.
+<br />
+<br />
+Through the bootcamp, I learnt more about React and React Native as well as Spring Boot for backend. I also learnt about devops and how to use Docker and Jenkins. I also got to know other like-minded people who were also passionate about programming and managed to do some group projects with them.
+<br />
+<br />
+Alas, this is just the beginning of my coding journey. I am truly excited for what's to come and cnstantly learning and honing my skills. I hope to be able to contribute to the tech industry in the future.
+</p>
+</div>
       </div>
   )
 }
