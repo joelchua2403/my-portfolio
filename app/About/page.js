@@ -2,6 +2,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import Link from "next/link";
+
 
 const page = () => {
   return (
@@ -30,6 +32,19 @@ const page = () => {
               willingness to learn in my future endeavours.
               <br />
               <br />
+              <div className="flex flex-row justify-left items-center">
+              <Link href="/Resume.pdf" target="_blank" download={true}
+              >
+                <button className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full">
+                My Resume
+                </button>
+                </Link>
+                <Link href="/Contact">
+                <button className="bg-blue-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full">
+                Contact Me
+                </button>
+                </Link>
+                </div>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">

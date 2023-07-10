@@ -4,6 +4,7 @@ import Image from 'next/image'
 import HarbourBooking from '../public/images/HarbourBooking.png'
 import BackendBooking from '../public/images/BackendBooking.png'
 import ownfit from '../public/images/ownfit.png'
+import Link from 'next/link'
 
 const ProjectCard = () => {
   return (
@@ -16,20 +17,21 @@ const ProjectCard = () => {
         <Image src={nutrimate} alt="nutrimate" width={400} height={400} className="rounded-xl"/>
         </div>
         <p className='text-gray-600 dark:text-gray-300 text-sm p-6'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            A FrontEnd food recipe website that allows users to search for recipes based on ingredients and cuisine.
+            Users are able to save their favourite recipes and view them.
             </p>
             </div>
             <div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden'>
-        <p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
+       <Link href="/Projects/HarbourBooking"> <p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
             Harbour Booking App
         </p>
+        </Link>
         <div className='flex flex-row justify-center items-center rounded-lg'>
-        <Image src={HarbourBooking} alt="HarbourBooking" width={400} height={400} className="rounded-xl" />
+        <Link href="/Projects/HarbourBooking"><Image src={HarbourBooking} alt="HarbourBooking" width={400} height={400} className="rounded-xl" />
+        </Link>
         </div>
         <p className='text-gray-600 dark:text-gray-300 text-sm p-6'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            Harbour Booking is a Full Stack App for vessels and port operators to book berths and manage their bookings.
             </p>
             </div>
             <div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden'>

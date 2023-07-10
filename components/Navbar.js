@@ -29,6 +29,7 @@
                 Projects</Link>
                 <Link href="/Contact" className="text-2xl font-bold text-white ml-8">
                 Contact</Link>
+               
             </nav>
           ) : (
             <nav>
@@ -39,7 +40,6 @@
                 Projects</Link>
               <Link href="/Contact" className="text-2xl font-bold text-gray-900 ml-8">
                 Contact</Link>
-            
             </nav>
           )}
             <button
