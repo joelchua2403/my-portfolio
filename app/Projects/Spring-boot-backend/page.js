@@ -15,7 +15,7 @@ const page = () => {
     <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center">
             <div className="flex flex-row justify-center items-center">
-        <h2 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
         Spring-boot Harbour Booking Backend Demo
         </h2>
         <div className="flex flex-col justify-center items-center">
@@ -27,13 +27,15 @@ const page = () => {
         </a>
         </div>
         </div>
-        <ReactPlayer url="https://youtu.be/1vaDW0298iw" />
+        <ReactPlayer url="https://youtu.be/1vaDW0298iw" width="100%" height="auto"/>
         <p className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-8">
             Relational Database Design
         </p>
+        <div className="flex flex-col justify-center items-center object-contain">
         <Image src="/images/springboot1.png" width={600} height={600} className="mb-10"/>
         <Image src="/images/springboot2.png" width={600} height={600} className="mb-10"/>
         <Image src="/images/springboot3.png" width={600} height={600} className="mb-10"/>
+        </div>
         <p className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-8">
             Unit Testing
         </p>

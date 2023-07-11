@@ -17,28 +17,28 @@
     }, []);
   
     return (
-      <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+      <div className="max-w-5xl  mx-auto px-3 py-10 md:py-20">
         <div className="flex  md:flex-row justify-between items-center flex-shrink">
-        <Link href='/'> <img src="https://avatars.githubusercontent.com/u/119186374?v=4" alt="Joel" className="rounded-full" width={50}/>
+        <Link href='/'> <img src="https://avatars.githubusercontent.com/u/119186374?v=4" alt="Joel" className="rounded-full" width={50} />
         </Link>
           {theme === "dark" ? (
           <nav>
-              <Link href="/About" className="text-2xl font-bold text-white ">
+              <Link href="/About" className="text-1xl font-bold text-white ">
                 About</Link>
-           <Link href="/Projects" className="text-2xl font-bold text-white ml-8">
+           <Link href="/Projects" className="text-1xl font-bold text-white ml-8">
                 Projects</Link>
-                <Link href="/Contact" className="text-2xl font-bold text-white ml-8">
+                <Link href="/Contact" className="text-1xl font-bold text-white ml-8">
                 Contact</Link>
                
             </nav>
           ) : (
             <nav>
             
-              <Link href="/About" className="text-2xl font-bold text-gray-900 ">
+              <Link href="/About" className="text-1xl md:text-2xl font-bold text-gray-900 mr-1">
                 About</Link>
-            <Link href="/Projects" className="text-2xl font-bold text-gray-900 ml-8">
+            <Link href="/Projects" className="text-1xl md:text-2xl font-bold text-gray-900 ml-8">
                 Projects</Link>
-              <Link href="/Contact" className="text-2xl font-bold text-gray-900 ml-8">
+              <Link href="/Contact" className="text-1xl md:text-2xl font-bold text-gray-900 ml-8">
                 Contact</Link>
             </nav>
           )}

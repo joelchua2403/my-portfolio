@@ -10,13 +10,13 @@ const page = () => {
    
       
 
-    <div className="flex flex-col md:flex-row justify-center items-center">
-        <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col md:flex-row justify-center items-center sm:flex-shrink">
+        <div className="flex flex-col justify-center items-center ">
         <div className="flex flex-row justify-center items-center mb-5">
-        <h2 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-200 m-8">
         NutriMate App Demo
         </h2>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center object-fit">
             <h2 className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-2">
                 View Code
             </h2>
@@ -25,7 +25,7 @@ const page = () => {
         </a>
         </div>
         </div>
-        <ReactPlayer url="https://www.youtube.com/watch?v=wmhO_nnjVTo" />
+        <ReactPlayer url="https://www.youtube.com/watch?v=wmhO_nnjVTo" width="100%" height="auto"/>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 Built with:
             </h1>
@@ -34,11 +34,11 @@ const page = () => {
                 <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
                 <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
                 </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8 ">
                 App Features:
             </h1>
         
-                <div className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-3">
+                <div className="  font-bold text-gray-700 dark:text-gray-200 m-3 flex flex-wrap">
                     <ol>
                         <li>1) Users able to search for recipes by ingredients, types, cuisines etc.</li>
                         <li>2) User is able to save favourite recipes and view them in saved recipes page.</li>

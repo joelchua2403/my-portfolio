@@ -12,7 +12,7 @@ const page = () => {
     <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center">
         <div className="flex flex-row justify-center items-center mb-5">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
         OwnFit Website Demo
         </h2>
         <div className="flex flex-col justify-center items-center">
@@ -24,7 +24,7 @@ const page = () => {
         </a>
         </div>
         </div>
-        <ReactPlayer url="https://youtu.be/9f3t74G9CYg" />
+        <ReactPlayer url="https://youtu.be/9f3t74G9CYg" width="90%" height="auto"/>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 Built with:
             </h1>
