@@ -49,7 +49,7 @@ const page = () => {
           </div>
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/images/joel.JPG"
+              src="/images/joel-hero.JPG"
               alt="Picture of the author"
               width={250}
               height={250}

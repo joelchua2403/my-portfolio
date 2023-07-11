@@ -11,9 +11,27 @@ const page = () => {
 
     <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-row justify-center items-center mb-5">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
         Harbour Booking App Demo
         </h2>
+        <div className="flex flex-col justify-center items-center">
+            <h2 className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-2">
+                Frontend Code
+            </h2>
+        <a href="https://github.com/joelchua2403/bookingFrontend" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+        </a>
+        </div>
+        <div className="flex flex-col justify-center items-center ml-8">
+            <h2 className="text-1xl md:text-1xl font-bold text-gray-700 dark:text-gray-200 m-2">
+               Backend Code
+            </h2>
+        <a href="https://github.com/joelchua2403/BookingApp" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+        </a>
+        </div>
+        </div>
         <ReactPlayer url="https://www.youtube.com/watch?v=aA4VRxHHjmU" />
             <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 Built with:
