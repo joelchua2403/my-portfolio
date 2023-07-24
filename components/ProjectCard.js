@@ -5,6 +5,7 @@ import jamming3 from '../public/images/jamming3.png'
 import HarbourBooking from '../public/images/HarbourBooking.png'
 import BackendBooking from '../public/images/BackendBooking.png'
 import ownfit from '../public/images/ownfit.png'
+import NotesApp from '../public/images/NotesApp.png'
 import Link from 'next/link'
 
 const ProjectCard = () => {
@@ -50,6 +51,20 @@ const ProjectCard = () => {
         </div>
         <p className='text-gray-600 dark:text-gray-300 text-sm p-6 mt-20'>
             Backend Booking is a Spring Boot API that allows users to book berths and manage their bookings.
+            </p>
+            </Link>
+            </div>
+
+            <div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden'>
+            <Link href="/Projects/NotesApp"> 
+        <p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
+            Notes App with .NET MAUI
+        </p>
+        <div className='flex flex-row justify-center items-center rounded-lg'>
+        <Image src={NotesApp} alt="BackendBooking" width={250} height={300} className="rounded-xl hover:scale-125 ease-in duration-500" />
+        </div>
+        <p className='text-gray-600 dark:text-gray-300 text-sm p-6 mt-20'>
+            Notes App is a .NET MAUI app that allows users to create notes and save them.
             </p>
             </Link>
             </div>
