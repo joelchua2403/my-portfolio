@@ -3,9 +3,13 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
+import ReactMarkdown from 'react-markdown';
 
 
 const page = () => {
+
+  const cSharp = `![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)`
+  
   return (
     <div>
       <Navbar />
@@ -70,6 +74,9 @@ const page = () => {
                 <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
                 <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
                 <img src="https://img.icons8.com/color/48/000000/css3.png" />
+
+                <img src="https://simpleicons.org/icons/csharp.svg" alt="C#" width="48" height="48" style={{fill: "green"}}/>
+
               </div>
             </div>
             <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
@@ -93,6 +100,8 @@ const page = () => {
                   width={48}
                   height={48}
                 />
+                <img src="https://img.icons8.com/color/48/000000/net-framework.png" alt=".NET" width="48" height="48" />
+
               </div>
             </div>
             <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
@@ -110,6 +119,8 @@ const page = () => {
               <img src="https://img.icons8.com/color/48/000000/git.png" />
               <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
               <img src="https://img.icons8.com/color/48/000000/docker.png" />
+              <img src="https://img.icons8.com/color/48/000000/circleci.png" alt="CircleCI" width="48" height="48" />
+
               {/* <img src="https://img.icons8.com/color/48/000000/jenkins.png" /> */}
               <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" />
             </div>
