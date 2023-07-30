@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-import ReactMarkdown from 'react-markdown';
+import SkillsImg from '@/public/images/SkillsImg.png'
 
 
 const page = () => {
@@ -65,8 +65,9 @@ const page = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 m-8">
             Skills
           </h1>
-          <div>
-            <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+          <Image src= {SkillsImg} alt="Skills" width={1000} height={500} className="rounded-xl"/>
+          
+            {/* <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               Languages:
               <div className="flex p-5 mr-5">
                 <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
@@ -77,9 +78,9 @@ const page = () => {
 
                 <img src="https://simpleicons.org/icons/csharp.svg" alt="C#" width="48" height="48" style={{fill: "green"}}/>
 
-              </div>
-            </div>
-            <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+              </div> */}
+           
+            {/* <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               Frontend:
               <div className="flex p-5 mr-5">
                 <img src="https://img.icons8.com/color/48/000000/react-native.png" />
@@ -88,12 +89,11 @@ const page = () => {
                 <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
                 <img src="https://img.icons8.com/color/48/000000/material-ui.png" />
               </div>
-            </div>
-            <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+            </div> */}
+            {/* <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               Backend:
               <div className="flex p-5 mr-5">
-                {/* <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
-                <img src="https://img.icons8.com/color/48/000000/express.png" /> */}
+               
                 <img src="https://img.icons8.com/color/48/000000/django.png" />
                 <img
                   src="https://img.icons8.com/?size=512&id=90519&format=png"
@@ -103,12 +103,11 @@ const page = () => {
                 <img src="https://img.icons8.com/color/48/000000/net-framework.png" alt=".NET" width="48" height="48" />
 
               </div>
-            </div>
-            <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
+            </div> */}
+            {/* <div className="text-1xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 m-3">
               Database:
               <div className="flex p-5 mr-5">
-                {/* <img src="https://img.icons8.com/color/48/000000/mongodb.png" /> */}
-                {/* <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" /> */}
+               
                 <img src="https://img.icons8.com/color/48/000000/postgreesql.png" />
               </div>
             </div>
@@ -119,15 +118,15 @@ const page = () => {
               <img src="https://img.icons8.com/color/48/000000/git.png" />
               <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
               <img src="https://img.icons8.com/color/48/000000/docker.png" />
-              <img src="https://img.icons8.com/color/48/000000/circleci.png" alt="CircleCI" width="48" height="48" />
+              <img src="https://img.icons8.com/color/48/000000/circleci.png" alt="CircleCI" width="48" height="48" /> */}
 
               {/* <img src="https://img.icons8.com/color/48/000000/jenkins.png" /> */}
-              <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" />
+               {/* <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" />
             </div>
-          </div>
+          </div> */}
         </div>
-       
-      </div>
+        
+      </div> 
     </div>
   );
 };
