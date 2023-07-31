@@ -23,11 +23,11 @@
         </Link>
           {theme === "dark" ? (
           <nav>
-              <Link href="/About" className="text-1xl font-bold text-white ">
+              <Link href="/About" className="text-1xl md:text-2xl font-bold text-white ">
                 About</Link>
-           <Link href="/Projects" className="text-1xl font-bold text-white ml-8">
+           <Link href="/Projects" className="text-1xl md:text-2xl font-bold text-white ml-8">
                 Projects</Link>
-                <Link href="/Contact" className="text-1xl font-bold text-white ml-8">
+                <Link href="/Contact" className="text-1xl md:text-2xl font-bold text-white ml-8">
                 Contact</Link>
                
             </nav>
