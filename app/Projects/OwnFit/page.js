@@ -24,7 +24,7 @@ const page = () => {
         </a>
         </div>
         </div>
-        <ReactPlayer url="https://youtu.be/9f3t74G9CYg" width="90%" height="auto"/>
+        <ReactPlayer url="https://youtu.be/9f3t74G9CYg" width="90%" height="400px"/>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 m-8">
                 Built with:
             </h1>
