@@ -7,11 +7,30 @@ import BackendBooking from '../public/images/BackendBooking.png'
 import ownfit from '../public/images/ownfit.png'
 import NotesApp from '../public/images/NotesApp.png'
 import CircleCI from '../public/images/CircleCI-Img.png'
+import BJJRPG from '../public/images/BJJRPG.png'
 import Link from 'next/link'
 
 const ProjectCard = () => {
   return (
+
+    
     <div className='grid lg:grid-cols-2 grid-rows-2 gap-5 p-3 '>
+
+<div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden '>
+      <Link href="/Projects/BJJRPG"><p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
+            BJJ RPG Game Backend 
+        </p>
+      
+        <div className='flex flex-row justify-center items-center'>
+        <Image src={BJJRPG} alt="nutrimate" width={400} height={400} className="rounded-xl hover:scale-125 ease-in duration-500"/>
+       
+        </div>
+        <p className='text-gray-600 dark:text-gray-300 text-sm p-6 mt-20'>
+            A Backend webAPI for a Brazillian Jiu-Jitsu RPG game done in C# using .NET Core 7.0.
+            </p>
+            </Link>
+            </div>
+
       <div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden '>
       <Link href="/Projects/NutriMate"><p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
             Nutrimate
@@ -27,6 +46,8 @@ const ProjectCard = () => {
             </p>
             </Link>
             </div>
+
+
             <div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden'>
        <Link href="/Projects/HarbourBooking"> <p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
             Harbour Booking App
