@@ -17,6 +17,22 @@ const ProjectCard = () => {
     <div className='grid lg:grid-cols-2 grid-rows-2 gap-5 p-3 '>
 
 <div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden '>
+      <Link href="/Projects/PokeHunter"><p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
+            PokeHunter React Native App
+        </p>
+      
+        <div className='flex flex-row justify-center items-center'>
+        <Image src={pokehunter} alt="pokehunter" width={200} height={200} className="rounded-xl hover:scale-125 ease-in duration-500"/>
+       
+        </div>
+        <p className='text-gray-600 dark:text-gray-300 text-sm p-6 mt-20'>
+            A React Native App that allows users to search for Pokemon using gyroscopic controls and catch them.
+            </p>
+            </Link>
+            </div>
+
+
+<div className='bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden '>
       <Link href="/Projects/BJJRPG"><p className='text-gray-800 dark:text-gray-200 text-xl font-bold mb-2 p-6'>
             BJJ RPG Game Backend 
         </p>
