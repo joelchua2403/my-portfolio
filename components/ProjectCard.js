@@ -8,6 +8,7 @@ import ownfit from '../public/images/ownfit.png'
 import NotesApp from '../public/images/NotesApp.png'
 import CircleCI from '../public/images/CircleCI-Img.png'
 import BJJRPG from '../public/images/BJJRPG.png'
+import pokehunter from '../public/images/pokehunter.jpeg'
 import Link from 'next/link'
 
 const ProjectCard = () => {
